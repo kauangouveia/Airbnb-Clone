@@ -2,6 +2,7 @@
 import Container from "../Container/idnex";
 import Logo from "../Logo";
 import Search from "../Search";
+import { UserMenu } from "../UserMenu";
 
 export default function NavBar() {
     return (
@@ -11,6 +12,7 @@ export default function NavBar() {
                     <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
                         <Logo />
                         <Search />
+                        <UserMenu />
                     </div>
                 </Container>
             </div>
