@@ -1,4 +1,4 @@
-
+'use client'
 import Container from "../Container/idnex";
 import Logo from "../Logo";
 import Search from "../Search";
